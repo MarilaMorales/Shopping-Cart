@@ -1,0 +1,107 @@
+body{
+  background-color: rgba(37, 38, 60, 0.854);
+}
+
+.hielo{
+  background-color: rgba(1, 3, 25, 0.872);
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logoImg{
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+#tituloImg{
+margin-left: 24rem;
+}
+
+
+#cartImg{
+  max-width: 30%;
+  max-height: 30%;
+  height: auto;
+  width: auto;
+  margin-left: 15rem;
+
+}
+
+.containerItems{
+  width: 80%;
+  margin-left: 8rem;
+  margin-top: 2rem;
+  border-color: rgba(34, 36, 36, 0.783);
+  box-shadow: rgba(59, 59, 96, 0.766) 0px 30px 60px -12px inset, rgba(88, 104, 148, 0.679) 0px 18px 36px -18px inset;
+  
+}
+
+.card{
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-body button{
+  border-radius: 12px;
+  background-color: rgba(11, 83, 94, 0.796);
+  color: aliceblue;
+  margin-bottom: 0.5rem;
+}
+
+.card img{
+  width: 90%;
+  height: auto;
+  padding: 1.5rem;
+  align-self: center;
+}
+
+#carroImg{
+  height: 12rem;
+  margin-bottom: 3rem;
+}
+
+#motoImg{
+
+  height: 13rem;
+  margin-bottom: 2rem;
+
+}
+
+
+#casaImg{
+  height: 13rem;
+  margin-bottom: 2rem;
+
+}
+
+
+#naveImg{
+  height: 13rem;
+  margin-bottom: 2rem;
+
+}
+
+.contador-casa{
+  align-self: center;
+}
+
+.shoppingCart{
+  color: azure;
+}
+
+
+#listaProd{
+  list-style-type: none;
+}
+
+
+
+
+
