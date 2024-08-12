@@ -94,14 +94,52 @@ margin-left: 24rem;
 
 .shoppingCart{
   color: azure;
+  width: 60% !important;
+  margin-left: 12rem;
+  display: flex;
+  justify-content:center;
+  
 }
 
 
 #listaProd{
   list-style-type: none;
+  margin: 2rem;
+ 
+  
 }
 
+#listaProd ul li{
+  border: 1px solid black;
+}
 
+.card2{
+background-color: azure;
+width: 80%;
+border: 1px solid black;
+/* margin-left: 36rem; */
+opacity: 0.6;
+margin-top: 6rem;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
 
+.checkoutCard{
+  width: 12rem;
+  border: 1px solid black;
 
+}
 
+#precioTotal{
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+#checkOutImg{
+  margin-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

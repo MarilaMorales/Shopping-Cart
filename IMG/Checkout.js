@@ -1,3 +1,5 @@
+
+
 // Función para actualizar los contadores en la interfaz
 function actualizarContadores() {
     let contadores = JSON.parse(localStorage.getItem("contadores"));
@@ -8,24 +10,24 @@ function actualizarContadores() {
 }
 
 function mostrarCarrito() {
-    const contadores = JSON.parse(localStorage.getItem("contadores"));
-    const itemList = document.getElementById("itemList");
-    const totalAmount = document.getElementById("totalAmount");
-
+    let contadores = JSON.parse(localStorage.getItem("contadores"));
+    let itemList = document.getElementById("itemList");
+    let precioTotal = document.getElementById("precioTotal");
+    
     // Limpiar la lista
     itemList.innerHTML = "";
 
     for (let item in contadores) {
         if (contadores[item] > 0) {
-            const listItem = document.createElement("li");
+            let listItem = document.createElement("li");
             listItem.textContent = item + ": " + contadores[item] + " x $" + precios[item] + " = $" + (contadores[item] * precios[item]);
             itemList.appendChild(listItem);
         }
     }
 
     // Calcular y mostrar el total
-    const total = calcularTotal();
-    totalAmount.textContent = "Total: $" + total;
+    let total = calcularTotal();
+    precioTotal.textContent = "Total: $" + total;
 }
 
 // Llama a la función para mostrar el carrito al cargar la página
